@@ -24,7 +24,7 @@ struct NoteView: View {
             let startIndex = note.content.index(note.content.startIndex, offsetBy: currentPosition)
             let lastIndex = note.content.endIndex
             let substring = note.content[startIndex..<lastIndex]
-            return [String(substring)]
+            return [String(substring), ""]
         } else{
             var container: [String] = []
             var lastPosition = note.formattings[0].position
@@ -64,8 +64,6 @@ struct NoteView: View {
         }.padding()        
     }
 }
-
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
