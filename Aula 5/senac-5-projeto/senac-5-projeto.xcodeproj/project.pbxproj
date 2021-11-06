@@ -12,18 +12,11 @@
 		C237FE682736AAE600AD1B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C237FE672736AAE600AD1B59 /* Assets.xcassets */; };
 		C237FE6B2736AAE600AD1B59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C237FE6A2736AAE600AD1B59 /* Preview Assets.xcassets */; };
 		C237FE762736AAE600AD1B59 /* senac_5_projetoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237FE752736AAE600AD1B59 /* senac_5_projetoTests.swift */; };
-		C237FE812736AAE700AD1B59 /* senac_5_projetoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237FE802736AAE700AD1B59 /* senac_5_projetoUITests.swift */; };
+		C237FEA42736B5F800AD1B59 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237FEA32736B5F800AD1B59 /* TodoList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		C237FE722736AAE600AD1B59 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C237FE582736AAE500AD1B59 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C237FE5F2736AAE500AD1B59;
-			remoteInfo = "senac-5-projeto";
-		};
-		C237FE7D2736AAE700AD1B59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C237FE582736AAE500AD1B59 /* Project object */;
 			proxyType = 1;
@@ -42,9 +35,7 @@
 		C237FE712736AAE600AD1B59 /* senac-5-projetoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "senac-5-projetoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C237FE752736AAE600AD1B59 /* senac_5_projetoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = senac_5_projetoTests.swift; sourceTree = "<group>"; };
 		C237FE772736AAE600AD1B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C237FE7C2736AAE700AD1B59 /* senac-5-projetoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "senac-5-projetoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C237FE802736AAE700AD1B59 /* senac_5_projetoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = senac_5_projetoUITests.swift; sourceTree = "<group>"; };
-		C237FE822736AAE700AD1B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C237FEA32736B5F800AD1B59 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +53,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C237FE792736AAE700AD1B59 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +61,6 @@
 			children = (
 				C237FE622736AAE500AD1B59 /* senac-5-projeto */,
 				C237FE742736AAE600AD1B59 /* senac-5-projetoTests */,
-				C237FE7F2736AAE700AD1B59 /* senac-5-projetoUITests */,
 				C237FE612736AAE500AD1B59 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +70,6 @@
 			children = (
 				C237FE602736AAE500AD1B59 /* senac-5-projeto.app */,
 				C237FE712736AAE600AD1B59 /* senac-5-projetoTests.xctest */,
-				C237FE7C2736AAE700AD1B59 /* senac-5-projetoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				C237FE632736AAE500AD1B59 /* senac_5_projetoApp.swift */,
+				C237FEA32736B5F800AD1B59 /* TodoList.swift */,
 				C237FE652736AAE500AD1B59 /* ContentView.swift */,
 				C237FE672736AAE600AD1B59 /* Assets.xcassets */,
 				C237FE6C2736AAE600AD1B59 /* Info.plist */,
@@ -121,15 +104,6 @@
 			path = "senac-5-projetoTests";
 			sourceTree = "<group>";
 		};
-		C237FE7F2736AAE700AD1B59 /* senac-5-projetoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C237FE802736AAE700AD1B59 /* senac_5_projetoUITests.swift */,
-				C237FE822736AAE700AD1B59 /* Info.plist */,
-			);
-			path = "senac-5-projetoUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +120,8 @@
 			dependencies = (
 			);
 			name = "senac-5-projeto";
+			packageProductDependencies = (
+			);
 			productName = "senac-5-projeto";
 			productReference = C237FE602736AAE500AD1B59 /* senac-5-projeto.app */;
 			productType = "com.apple.product-type.application";
@@ -168,24 +144,6 @@
 			productReference = C237FE712736AAE600AD1B59 /* senac-5-projetoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C237FE7B2736AAE700AD1B59 /* senac-5-projetoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C237FE8B2736AAE700AD1B59 /* Build configuration list for PBXNativeTarget "senac-5-projetoUITests" */;
-			buildPhases = (
-				C237FE782736AAE700AD1B59 /* Sources */,
-				C237FE792736AAE700AD1B59 /* Frameworks */,
-				C237FE7A2736AAE700AD1B59 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C237FE7E2736AAE700AD1B59 /* PBXTargetDependency */,
-			);
-			name = "senac-5-projetoUITests";
-			productName = "senac-5-projetoUITests";
-			productReference = C237FE7C2736AAE700AD1B59 /* senac-5-projetoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,10 +160,6 @@
 						CreatedOnToolsVersion = 12.2;
 						TestTargetID = C237FE5F2736AAE500AD1B59;
 					};
-					C237FE7B2736AAE700AD1B59 = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = C237FE5F2736AAE500AD1B59;
-					};
 				};
 			};
 			buildConfigurationList = C237FE5B2736AAE500AD1B59 /* Build configuration list for PBXProject "senac-5-projeto" */;
@@ -217,13 +171,14 @@
 				Base,
 			);
 			mainGroup = C237FE572736AAE500AD1B59;
+			packageReferences = (
+			);
 			productRefGroup = C237FE612736AAE500AD1B59 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C237FE5F2736AAE500AD1B59 /* senac-5-projeto */,
 				C237FE702736AAE600AD1B59 /* senac-5-projetoTests */,
-				C237FE7B2736AAE700AD1B59 /* senac-5-projetoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,13 +200,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C237FE7A2736AAE700AD1B59 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C237FEA42736B5F800AD1B59 /* TodoList.swift in Sources */,
 				C237FE662736AAE500AD1B59 /* ContentView.swift in Sources */,
 				C237FE642736AAE500AD1B59 /* senac_5_projetoApp.swift in Sources */,
 			);
@@ -272,14 +221,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C237FE782736AAE700AD1B59 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C237FE812736AAE700AD1B59 /* senac_5_projetoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -287,11 +228,6 @@
 			isa = PBXTargetDependency;
 			target = C237FE5F2736AAE500AD1B59 /* senac-5-projeto */;
 			targetProxy = C237FE722736AAE600AD1B59 /* PBXContainerItemProxy */;
-		};
-		C237FE7E2736AAE700AD1B59 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C237FE5F2736AAE500AD1B59 /* senac-5-projeto */;
-			targetProxy = C237FE7D2736AAE700AD1B59 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -496,44 +432,6 @@
 			};
 			name = Release;
 		};
-		C237FE8C2736AAE700AD1B59 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "senac-5-projetoUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.diego.senac-5-projetoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "senac-5-projeto";
-			};
-			name = Debug;
-		};
-		C237FE8D2736AAE700AD1B59 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "senac-5-projetoUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.diego.senac-5-projetoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "senac-5-projeto";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -560,15 +458,6 @@
 			buildConfigurations = (
 				C237FE892736AAE700AD1B59 /* Debug */,
 				C237FE8A2736AAE700AD1B59 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C237FE8B2736AAE700AD1B59 /* Build configuration list for PBXNativeTarget "senac-5-projetoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C237FE8C2736AAE700AD1B59 /* Debug */,
-				C237FE8D2736AAE700AD1B59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

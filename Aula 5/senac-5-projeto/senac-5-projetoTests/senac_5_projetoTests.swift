@@ -8,26 +8,44 @@
 import XCTest
 @testable import senac_5_projeto
 
+
+// AS A         User
+// I WANT TO    Add a to-do item
+// SO THAT I    Can register my activities
+
+// AS A         User
+// I WANT TO    Delete an item
+// SO THAT I    Can remove an activity
+
 class senac_5_projetoTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testRemoveItemFromList(){
+        // GIVEN    My list has 1 item
+        var list = TodoList(item: Item(name: "Estudar", checked: true))
+        
+        // WHEN     I remove a item named "Estudar"
+        
+        list.remove(item: Item(name: "Estudar"))
+        
+        // THEN     It should be removed from the list
+        XCTAssert(list.items.last!.name == "Estudar")
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    
+    func testAddingOneItemInListWithOneItemAlready(){
+        
+        // GIVEN    My list has 1 item
+        // AND      The item is checked
+        // AND      The item is named "Fazer academia"
+        var list = TodoList(item: Item(name: "Fazer Academia", checked: true))
+        
+        // WHEN     I add a to-do item named "Estudar"
+        list.add(item: Item(name: "Estudar"))
+        
+        // THEN     It should be at the end of the list
+        XCTAssert(list.items.last!.name == "Estudar")
+        
+        // AND      It should be unchecked
+        XCTAssert(list.items.last!.checked == false)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
