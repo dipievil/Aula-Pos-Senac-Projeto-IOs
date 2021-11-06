@@ -9,19 +9,35 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
+               
         NavigationView{
-            VStack{
-                HStack{
-                    Text("Hello, world!")
-                        .padding()
-                }
-                
-                HStack{
-                    Text("Hello, world!")
-                        .padding()
-                }
+            
+            NavigationLink("Clique para iniciar", destination: Text("Jogo da Forca"))
+                .navigationBarTitle("Jogo da Forca", displayMode: .large)
+            HStack{
+                Text("Tela A")
+                    .padding()
             }
+            /*
+            ScrollView{
+                MenuInicialView()
+               
+                VStack{
+                    HStack{
+                        Text("Tela 1")
+                            .padding()
+                    }
+                    
+                    Spacer()
+                    
+                    HStack{
+                        Text("Tela 2")
+                            .padding()
+                    }
+                }
+
+            }
+            */
         }
     }
 }
