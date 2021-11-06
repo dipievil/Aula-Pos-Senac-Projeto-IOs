@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C237FEC32736C19200AD1B59 /* senac_3_projetoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237FEC22736C19200AD1B59 /* senac_3_projetoApp.swift */; };
+		C237FEC72736C19E00AD1B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C237FEC62736C19E00AD1B59 /* Assets.xcassets */; };
+		C237FECA2736C19E00AD1B59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C237FEC92736C19E00AD1B59 /* Preview Assets.xcassets */; };
+		C237FF072736CE2B00AD1B59 /* MensagemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237FF062736CE2B00AD1B59 /* MensagemView.swift */; };
+		C237FF092736CE4900AD1B59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237FF082736CE4900AD1B59 /* ContentView.swift */; };
+		C237FF112736CF6E00AD1B59 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237FF0E2736CF6D00AD1B59 /* Usuario.swift */; };
+		C237FF122736CF6E00AD1B59 /* Mensagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237FF102736CF6E00AD1B59 /* Mensagem.swift */; };
+		C237FF132736CF6E00AD1B59 /* ContainerUsuarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237FF0D2736CF6D00AD1B59 /* ContainerUsuarios.swift */; };
+		C237FF142736CF6E00AD1B59 /* ContainerMensagens.swift in Sources */ = {isa = PBXBuildFile; fileRef = C237FF0F2736CF6E00AD1B59 /* ContainerMensagens.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C237FED12736C19F00AD1B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C237FEB72736C19200AD1B59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C237FEBE2736C19200AD1B59;
+			remoteInfo = "senac-3-projeto";
+		};
+		C237FEDC2736C19F00AD1B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C237FEB72736C19200AD1B59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C237FEBE2736C19200AD1B59;
+			remoteInfo = "senac-3-projeto";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C237FEBF2736C19200AD1B59 /* senac-3-projeto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "senac-3-projeto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C237FEC22736C19200AD1B59 /* senac_3_projetoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = senac_3_projetoApp.swift; sourceTree = "<group>"; };
+		C237FEC62736C19E00AD1B59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C237FEC92736C19E00AD1B59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C237FECB2736C19E00AD1B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C237FED02736C19F00AD1B59 /* senac-3-projetoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "senac-3-projetoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C237FEDB2736C19F00AD1B59 /* senac-3-projetoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "senac-3-projetoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C237FF062736CE2B00AD1B59 /* MensagemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensagemView.swift; sourceTree = "<group>"; };
+		C237FF082736CE4900AD1B59 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C237FF0D2736CF6D00AD1B59 /* ContainerUsuarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerUsuarios.swift; sourceTree = "<group>"; };
+		C237FF0E2736CF6D00AD1B59 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		C237FF0F2736CF6E00AD1B59 /* ContainerMensagens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerMensagens.swift; sourceTree = "<group>"; };
+		C237FF102736CF6E00AD1B59 /* Mensagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensagem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C237FEBC2736C19200AD1B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C237FECD2736C19F00AD1B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C237FED82736C19F00AD1B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C237FEB62736C19200AD1B59 = {
+			isa = PBXGroup;
+			children = (
+				C237FEC12736C19200AD1B59 /* senac-3-projeto */,
+				C237FEC02736C19200AD1B59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C237FEC02736C19200AD1B59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C237FEBF2736C19200AD1B59 /* senac-3-projeto.app */,
+				C237FED02736C19F00AD1B59 /* senac-3-projetoTests.xctest */,
+				C237FEDB2736C19F00AD1B59 /* senac-3-projetoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C237FEC12736C19200AD1B59 /* senac-3-projeto */ = {
+			isa = PBXGroup;
+			children = (
+				C237FF1C2736CFAF00AD1B59 /* View */,
+				C237FF182736CF8300AD1B59 /* Model */,
+				C237FEC22736C19200AD1B59 /* senac_3_projetoApp.swift */,
+				C237FEC62736C19E00AD1B59 /* Assets.xcassets */,
+				C237FECB2736C19E00AD1B59 /* Info.plist */,
+				C237FEC82736C19E00AD1B59 /* Preview Content */,
+			);
+			path = "senac-3-projeto";
+			sourceTree = "<group>";
+		};
+		C237FEC82736C19E00AD1B59 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C237FEC92736C19E00AD1B59 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C237FF182736CF8300AD1B59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C237FF0F2736CF6E00AD1B59 /* ContainerMensagens.swift */,
+				C237FF0D2736CF6D00AD1B59 /* ContainerUsuarios.swift */,
+				C237FF102736CF6E00AD1B59 /* Mensagem.swift */,
+				C237FF0E2736CF6D00AD1B59 /* Usuario.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C237FF1C2736CFAF00AD1B59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C237FF082736CE4900AD1B59 /* ContentView.swift */,
+				C237FF062736CE2B00AD1B59 /* MensagemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C237FEBE2736C19200AD1B59 /* senac-3-projeto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C237FEE42736C19F00AD1B59 /* Build configuration list for PBXNativeTarget "senac-3-projeto" */;
+			buildPhases = (
+				C237FEBB2736C19200AD1B59 /* Sources */,
+				C237FEBC2736C19200AD1B59 /* Frameworks */,
+				C237FEBD2736C19200AD1B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "senac-3-projeto";
+			productName = "senac-3-projeto";
+			productReference = C237FEBF2736C19200AD1B59 /* senac-3-projeto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C237FECF2736C19F00AD1B59 /* senac-3-projetoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C237FEE72736C19F00AD1B59 /* Build configuration list for PBXNativeTarget "senac-3-projetoTests" */;
+			buildPhases = (
+				C237FECC2736C19F00AD1B59 /* Sources */,
+				C237FECD2736C19F00AD1B59 /* Frameworks */,
+				C237FECE2736C19F00AD1B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C237FED22736C19F00AD1B59 /* PBXTargetDependency */,
+			);
+			name = "senac-3-projetoTests";
+			productName = "senac-3-projetoTests";
+			productReference = C237FED02736C19F00AD1B59 /* senac-3-projetoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C237FEDA2736C19F00AD1B59 /* senac-3-projetoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C237FEEA2736C19F00AD1B59 /* Build configuration list for PBXNativeTarget "senac-3-projetoUITests" */;
+			buildPhases = (
+				C237FED72736C19F00AD1B59 /* Sources */,
+				C237FED82736C19F00AD1B59 /* Frameworks */,
+				C237FED92736C19F00AD1B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C237FEDD2736C19F00AD1B59 /* PBXTargetDependency */,
+			);
+			name = "senac-3-projetoUITests";
+			productName = "senac-3-projetoUITests";
+			productReference = C237FEDB2736C19F00AD1B59 /* senac-3-projetoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C237FEB72736C19200AD1B59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					C237FEBE2736C19200AD1B59 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					C237FECF2736C19F00AD1B59 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = C237FEBE2736C19200AD1B59;
+					};
+					C237FEDA2736C19F00AD1B59 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = C237FEBE2736C19200AD1B59;
+					};
+				};
+			};
+			buildConfigurationList = C237FEBA2736C19200AD1B59 /* Build configuration list for PBXProject "senac-3-projeto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C237FEB62736C19200AD1B59;
+			productRefGroup = C237FEC02736C19200AD1B59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C237FEBE2736C19200AD1B59 /* senac-3-projeto */,
+				C237FECF2736C19F00AD1B59 /* senac-3-projetoTests */,
+				C237FEDA2736C19F00AD1B59 /* senac-3-projetoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C237FEBD2736C19200AD1B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C237FECA2736C19E00AD1B59 /* Preview Assets.xcassets in Resources */,
+				C237FEC72736C19E00AD1B59 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C237FECE2736C19F00AD1B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C237FED92736C19F00AD1B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C237FEBB2736C19200AD1B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C237FF142736CF6E00AD1B59 /* ContainerMensagens.swift in Sources */,
+				C237FF132736CF6E00AD1B59 /* ContainerUsuarios.swift in Sources */,
+				C237FF122736CF6E00AD1B59 /* Mensagem.swift in Sources */,
+				C237FF112736CF6E00AD1B59 /* Usuario.swift in Sources */,
+				C237FEC32736C19200AD1B59 /* senac_3_projetoApp.swift in Sources */,
+				C237FF072736CE2B00AD1B59 /* MensagemView.swift in Sources */,
+				C237FF092736CE4900AD1B59 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C237FECC2736C19F00AD1B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C237FED72736C19F00AD1B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C237FED22736C19F00AD1B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C237FEBE2736C19200AD1B59 /* senac-3-projeto */;
+			targetProxy = C237FED12736C19F00AD1B59 /* PBXContainerItemProxy */;
+		};
+		C237FEDD2736C19F00AD1B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C237FEBE2736C19200AD1B59 /* senac-3-projeto */;
+			targetProxy = C237FEDC2736C19F00AD1B59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C237FEE22736C19F00AD1B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C237FEE32736C19F00AD1B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C237FEE52736C19F00AD1B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"senac-3-projeto/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "senac-3-projeto/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.diego.senac-3-projeto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C237FEE62736C19F00AD1B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"senac-3-projeto/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "senac-3-projeto/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.diego.senac-3-projeto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C237FEE82736C19F00AD1B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "senac-3-projetoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.diego.senac-3-projetoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/senac-3-projeto.app/senac-3-projeto";
+			};
+			name = Debug;
+		};
+		C237FEE92736C19F00AD1B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "senac-3-projetoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.diego.senac-3-projetoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/senac-3-projeto.app/senac-3-projeto";
+			};
+			name = Release;
+		};
+		C237FEEB2736C19F00AD1B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "senac-3-projetoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.diego.senac-3-projetoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "senac-3-projeto";
+			};
+			name = Debug;
+		};
+		C237FEEC2736C19F00AD1B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "senac-3-projetoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.diego.senac-3-projetoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "senac-3-projeto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C237FEBA2736C19200AD1B59 /* Build configuration list for PBXProject "senac-3-projeto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C237FEE22736C19F00AD1B59 /* Debug */,
+				C237FEE32736C19F00AD1B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C237FEE42736C19F00AD1B59 /* Build configuration list for PBXNativeTarget "senac-3-projeto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C237FEE52736C19F00AD1B59 /* Debug */,
+				C237FEE62736C19F00AD1B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C237FEE72736C19F00AD1B59 /* Build configuration list for PBXNativeTarget "senac-3-projetoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C237FEE82736C19F00AD1B59 /* Debug */,
+				C237FEE92736C19F00AD1B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C237FEEA2736C19F00AD1B59 /* Build configuration list for PBXNativeTarget "senac-3-projetoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C237FEEB2736C19F00AD1B59 /* Debug */,
+				C237FEEC2736C19F00AD1B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C237FEB72736C19200AD1B59 /* Project object */;
+}
