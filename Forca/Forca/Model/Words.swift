@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct Word: Identifiable {
+    
+    var id = UUID()
+    
+    var word: String
+    
+    var tips: [String]
+    
+}

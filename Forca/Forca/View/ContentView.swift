@@ -9,19 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack{
-            HStack{
-                Text("Hello, world!")
-                    .padding()
-            }
-            
-            HStack{
-                Text("Hello, world!")
-                    .padding()
+        
+        NavigationView{
+            VStack{
+                HStack{
+                    Text("Hello, world!")
+                        .padding()
+                }
+                
+                HStack{
+                    Text("Hello, world!")
+                        .padding()
+                }
             }
         }
-        
-        
     }
 }
 

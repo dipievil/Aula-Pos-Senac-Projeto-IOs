@@ -11,6 +11,8 @@
 		C2AC4A6A2736FFD1007A8140 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC4A692736FFD1007A8140 /* ContentView.swift */; };
 		C2AC4A6C2736FFDD007A8140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AC4A6B2736FFDD007A8140 /* Assets.xcassets */; };
 		C2AC4A6F2736FFDD007A8140 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AC4A6E2736FFDD007A8140 /* Preview Assets.xcassets */; };
+		C2AC4A79273700F5007A8140 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC4A78273700F5007A8140 /* Words.swift */; };
+		C2AC4A7D273701CE007A8140 /* ContainerWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC4A7C273701CE007A8140 /* ContainerWords.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		C2AC4A6B2736FFDD007A8140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2AC4A6E2736FFDD007A8140 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C2AC4A702736FFDD007A8140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2AC4A78273700F5007A8140 /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
+		C2AC4A7C273701CE007A8140 /* ContainerWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWords.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,9 @@
 		C2AC4A662736FFD1007A8140 /* Forca */ = {
 			isa = PBXGroup;
 			children = (
+				C2AC4A7F273702CA007A8140 /* View */,
+				C2AC4A77273700D7007A8140 /* Model */,
 				C2AC4A672736FFD1007A8140 /* ForcaApp.swift */,
-				C2AC4A692736FFD1007A8140 /* ContentView.swift */,
 				C2AC4A6B2736FFDD007A8140 /* Assets.xcassets */,
 				C2AC4A702736FFDD007A8140 /* Info.plist */,
 				C2AC4A6D2736FFDD007A8140 /* Preview Content */,
@@ -67,6 +72,23 @@
 				C2AC4A6E2736FFDD007A8140 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2AC4A77273700D7007A8140 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2AC4A78273700F5007A8140 /* Words.swift */,
+				C2AC4A7C273701CE007A8140 /* ContainerWords.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2AC4A7F273702CA007A8140 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2AC4A692736FFD1007A8140 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2AC4A79273700F5007A8140 /* Words.swift in Sources */,
+				C2AC4A7D273701CE007A8140 /* ContainerWords.swift in Sources */,
 				C2AC4A6A2736FFD1007A8140 /* ContentView.swift in Sources */,
 				C2AC4A682736FFD1007A8140 /* ForcaApp.swift in Sources */,
 			);
