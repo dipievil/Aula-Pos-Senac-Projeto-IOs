@@ -2,7 +2,7 @@
 //  MenuInicialView.swift
 //  Forca
 //
-//  Created by IOS SENAC on 06/11/21.
+//  Created by Dipi on 15/11/21.
 //
 
 import SwiftUI

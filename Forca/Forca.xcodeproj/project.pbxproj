@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A59272527431C0900816F00 /* MenuInicialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A59272427431C0900816F00 /* MenuInicialView.swift */; };
+		3A59272727431C4A00816F00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A59272627431C4A00816F00 /* ContentView.swift */; };
 		C2AC4A682736FFD1007A8140 /* ForcaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC4A672736FFD1007A8140 /* ForcaApp.swift */; };
-		C2AC4A6A2736FFD1007A8140 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC4A692736FFD1007A8140 /* ContentView.swift */; };
 		C2AC4A6C2736FFDD007A8140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AC4A6B2736FFDD007A8140 /* Assets.xcassets */; };
 		C2AC4A6F2736FFDD007A8140 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AC4A6E2736FFDD007A8140 /* Preview Assets.xcassets */; };
 		C2AC4A79273700F5007A8140 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC4A78273700F5007A8140 /* Words.swift */; };
 		C2AC4A7D273701CE007A8140 /* ContainerWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC4A7C273701CE007A8140 /* ContainerWords.swift */; };
-		C2BFB44627370B7700E2500D /* MenuInicialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BFB44527370B7700E2500D /* MenuInicialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A59272427431C0900816F00 /* MenuInicialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInicialView.swift; sourceTree = "<group>"; };
+		3A59272627431C4A00816F00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C2AC4A642736FFD1007A8140 /* Forca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2AC4A672736FFD1007A8140 /* ForcaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcaApp.swift; sourceTree = "<group>"; };
-		C2AC4A692736FFD1007A8140 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C2AC4A6B2736FFDD007A8140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2AC4A6E2736FFDD007A8140 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C2AC4A702736FFDD007A8140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2AC4A78273700F5007A8140 /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
 		C2AC4A7C273701CE007A8140 /* ContainerWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWords.swift; sourceTree = "<group>"; };
-		C2BFB44527370B7700E2500D /* MenuInicialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInicialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +88,8 @@
 		C2AC4A7F273702CA007A8140 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C2AC4A692736FFD1007A8140 /* ContentView.swift */,
-				C2BFB44527370B7700E2500D /* MenuInicialView.swift */,
+				3A59272427431C0900816F00 /* MenuInicialView.swift */,
+				3A59272627431C4A00816F00 /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,10 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2AC4A79273700F5007A8140 /* Words.swift in Sources */,
+				3A59272727431C4A00816F00 /* ContentView.swift in Sources */,
+				3A59272527431C0900816F00 /* MenuInicialView.swift in Sources */,
 				C2AC4A7D273701CE007A8140 /* ContainerWords.swift in Sources */,
-				C2AC4A6A2736FFD1007A8140 /* ContentView.swift in Sources */,
 				C2AC4A682736FFD1007A8140 /* ForcaApp.swift in Sources */,
-				C2BFB44627370B7700E2500D /* MenuInicialView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

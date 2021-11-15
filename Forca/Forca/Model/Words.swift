@@ -13,6 +13,5 @@ struct Word: Identifiable {
     
     var word: String
     
-    var tips: [String]
-    
+    var tips: [String]    
 }
