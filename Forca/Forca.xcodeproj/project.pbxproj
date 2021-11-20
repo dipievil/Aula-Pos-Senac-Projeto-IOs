@@ -12,8 +12,9 @@
 		C2AC4A682736FFD1007A8140 /* ForcaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC4A672736FFD1007A8140 /* ForcaApp.swift */; };
 		C2AC4A6C2736FFDD007A8140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AC4A6B2736FFDD007A8140 /* Assets.xcassets */; };
 		C2AC4A6F2736FFDD007A8140 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AC4A6E2736FFDD007A8140 /* Preview Assets.xcassets */; };
-		C2AC4A79273700F5007A8140 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC4A78273700F5007A8140 /* Words.swift */; };
-		C2AC4A7D273701CE007A8140 /* ContainerWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC4A7C273701CE007A8140 /* ContainerWords.swift */; };
+		C2AC4A79273700F5007A8140 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC4A78273700F5007A8140 /* Puzzle.swift */; };
+		C2AC4A7D273701CE007A8140 /* ContainerPuzzles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC4A7C273701CE007A8140 /* ContainerPuzzles.swift */; };
+		C2E031C827492514000C67A9 /* LettersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E031C727492514000C67A9 /* LettersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +25,9 @@
 		C2AC4A6B2736FFDD007A8140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2AC4A6E2736FFDD007A8140 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C2AC4A702736FFDD007A8140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2AC4A78273700F5007A8140 /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
-		C2AC4A7C273701CE007A8140 /* ContainerWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWords.swift; sourceTree = "<group>"; };
+		C2AC4A78273700F5007A8140 /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		C2AC4A7C273701CE007A8140 /* ContainerPuzzles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerPuzzles.swift; sourceTree = "<group>"; };
+		C2E031C727492514000C67A9 /* LettersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +81,8 @@
 		C2AC4A77273700D7007A8140 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C2AC4A78273700F5007A8140 /* Words.swift */,
-				C2AC4A7C273701CE007A8140 /* ContainerWords.swift */,
+				C2AC4A78273700F5007A8140 /* Puzzle.swift */,
+				C2AC4A7C273701CE007A8140 /* ContainerPuzzles.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -90,6 +92,7 @@
 			children = (
 				3A59272427431C0900816F00 /* MenuInicialView.swift */,
 				3A59272627431C4A00816F00 /* ContentView.swift */,
+				C2E031C727492514000C67A9 /* LettersView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,10 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2AC4A79273700F5007A8140 /* Words.swift in Sources */,
+				C2AC4A79273700F5007A8140 /* Puzzle.swift in Sources */,
 				3A59272727431C4A00816F00 /* ContentView.swift in Sources */,
+				C2E031C827492514000C67A9 /* LettersView.swift in Sources */,
 				3A59272527431C0900816F00 /* MenuInicialView.swift in Sources */,
-				C2AC4A7D273701CE007A8140 /* ContainerWords.swift in Sources */,
+				C2AC4A7D273701CE007A8140 /* ContainerPuzzles.swift in Sources */,
 				C2AC4A682736FFD1007A8140 /* ForcaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

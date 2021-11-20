@@ -8,53 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var pontuacao: Int = 0
+    
+    @State var puzzle: Puzzle = ContainerPuzzles().puzzles[0]
+    
     var body: some View {
-        GeometryReader{ geo in
-            ZStack {
-                VStack(spacing: 10){
-                    HStack{
+    
+        ZStack {
+            VStack(spacing: 10){
+                HStack{
+                    VStack{
                         Text("Jogo da Forca")
                             .font(.title)
                             .fontWeight(.bold)
                             .multilineTextAlignment(.center)
+                        Text("Pontuação " + String(pontuacao))
                     }
-                    Spacer()
-                    HStack(spacing: 5){
-                        VStack{
-                            Text("Área do Boneco")
-                        }.frame(width: (UIScreen.main.bounds.width/2), height: 500.0, alignment: .leading)
-                        .border(Color.red)
-                        Spacer()
-                        VStack{
-                            HStack(alignment: .center){
-                                Text("Letras")
-                                    .multilineTextAlignment(.center)
-                            }
-                            HStack{
-                                Text("Palavra")
-                                    .fontWeight(.light)
-                                    .multilineTextAlignment(.center)
-                                    .font(.title2)
-                            }
-                        }
-                    }
-                    HStack{
-                        VStack{
-                            HStack{
-                                Text("Chutes")
-                            }
-                            HStack{
-                                Text("Dica")
-                                    .font(.caption)
-                            }
-                        }
-                        
-                    }.border(Color.blue)
-
                 }
+                Spacer()
+                LettersView(puzzle: puzzle, dollWidth: UIScreen.main.bounds.width/2)
+                
             }
         }
+    }
         
+    func setActualWord() -> Puzzle{
+        let rndWord = Int.random(in: 0..<(ContainerPuzzles().puzzles.count+1))
+        return ContainerPuzzles().puzzles[rndWord]
     }
 }
 

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Word: Identifiable {
+struct Puzzle: Identifiable {
     
     var id = UUID()
     
