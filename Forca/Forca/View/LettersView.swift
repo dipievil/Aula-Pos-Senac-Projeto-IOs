@@ -11,13 +11,15 @@ struct LettersView: View {
     
     @State var puzzle : Puzzle?
     
+    @State var guessed : String = ""
+    
     @State var wrongLetters : String = ""
+    
+    @State var lettersToGuess : [String] = []
     
     var dollWidth : CGFloat
     
     var body: some View {
-                
-        let alphabet = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","X","Z"]
         
         VStack{
             
@@ -27,22 +29,23 @@ struct LettersView: View {
                 }.frame(width: dollWidth, height: 500.0, alignment: .leading)
                 .border(Color.red)
                 Spacer()
-                HStack(alignment: .center){
+                
+                VStack(alignment: .center){
                     
-                    ForEach(alphabet, id: \.self) { letter in
+                    ForEach(lettersToGuess, id: \.self) { letter in
                          Button(action: {
-                             Useletter(letter: "A")
+                             Useletter(letter: letter)
                              print()
                          }, label: {
-                             Text("A").font(.title)
+                             Text(letter).font(.title)
                          })
                     }
                     
                     Text("Letras")
                         .multilineTextAlignment(.center)
                 }
-                HStack{
-                    Text(puzzle!.word)
+                VStack{
+                    Text(guessed)
                         .fontWeight(.light)
                         .multilineTextAlignment(.center)
                         .font(.title2)
@@ -68,12 +71,40 @@ struct LettersView: View {
         }
     }
     
+    //Check if the character is in the word
     func Useletter(letter : String){
         if puzzle!.word.uppercased().contains(letter.uppercased()) == false{
             wrongLetters = wrongLetters + letter
+        } else {
+            
+            let range: Range<String.Index> = puzzle!.word.range(of: letter)!
+            let pos: Int = puzzle!.word.distance(from: puzzle!.word.startIndex, to: range.lowerBound)
         }
-    
     }
+    
+    //Set or change the word to guess
+    func SetGuessed(letter : String? = nil){
+        if letter == nil{
+            
+        }
+    }
+    
+    //Return list of characters to choose
+    //func setLettersToGuess() -> [String]{
+     //   var  characters = Array(puzzle!.word)
+        
+     //   let alphabet = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","X","Z"]
+        
+      //  var nchars = 0
+        
+     //   while nchars < (puzzle!.word.count + 5) {
+     //       characters.append(contentsOf: alphabet[0])
+     //       nchars = nchars + 1
+     //   }
+        
+    //    return characters
+    //}
+    
 }
 
 struct LettersView_Previews: PreviewProvider {

@@ -34,7 +34,7 @@ struct ContentView: View {
     }
         
     func setActualWord() -> Puzzle{
-        let rndWord = Int.random(in: 0..<(ContainerPuzzles().puzzles.count+1))
+        let rndWord = Int.random(in: 0..<(ContainerPuzzles().puzzles.count+1))	
         return ContainerPuzzles().puzzles[rndWord]
     }
 }
